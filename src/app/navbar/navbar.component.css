@@ -1,0 +1,33 @@
+a.btn {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 50px;
+    /* consistent height */
+    font-size: 1rem;
+    /* default text size */
+}
+
+i {
+    font-size: 1.2rem;
+    /* smaller icon size */
+}
+
+nav {
+    width: 100%;
+}
+
+span {
+    font-family: sans-serif;
+}
+
+.login-btn {
+    background-color: var(--bisonGreen);
+    color: white;
+    border: 1px solid;
+}
+
+.register-btn{
+    background-color: var(--bisonGreen);
+    color: white;
+    border: 1px solid;
+}

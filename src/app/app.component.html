@@ -1,0 +1,16 @@
+<div class="d-flex min-vh-100">
+  <aside
+    class="navbarStyles text-white p-3 d-flex flex-column"
+    [style.width.px]="sidebarOpen ? 250 : 70"
+  >
+    <img id="logo"src="assets/images/NDSUlogo.svg" alt="NDSU logo" class="image">
+    <button class="navbarStyles btn btn-outline-light mb-3" (click)="toggleSidebar()">
+      ☰
+    </button>
+    <app-navbar class="navbarStyles" [sidebarOpen]="sidebarOpen"></app-navbar>
+  </aside>
+
+  <main class="flex-fill bg-light p-4">
+    <router-outlet></router-outlet>
+  </main>
+</div>

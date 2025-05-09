@@ -1,0 +1,32 @@
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  font-weight: bold;
+  background-color: var(--bisonGreen);
+}
+
+.btn {
+  background-color: var(--bisonGreen);
+}
+
+.form-check-input:checked {
+  background-color: var(--bisonGreen);
+  border-color: var(--bisonGreen);
+}
+
+.form-switch .form-check-input {
+  width: 3em;
+  height: 1.5em;
+  margin-top: 0.25em;
+}
+
+.btn-primary {
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
